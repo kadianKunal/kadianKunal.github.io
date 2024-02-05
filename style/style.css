@@ -1,6 +1,8 @@
 body {
     /* font-family: 'Arial', sans-serif; */
     font-family: 'lato','Karla', 'Helvetica Neue', Helvetica, sans-serif;
+    /* font-family: 'Georgia', serif; */
+    /* font-family: 'Roboto', sans-serif; */
     margin: 0;
     padding: 0;
 }
@@ -19,7 +21,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     /* float: left; */
     color: black;
@@ -57,12 +59,27 @@ ul.aboutTech {
     background-color: #ccc;
     color: #333;
     padding: 5px 10px;
-    margin-left: 15px;
+    margin-left: 1px;
     margin-right: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
     font-size: 14px;
 }
+
+.quote-text {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #3498db;
+    padding: 15px;
+}
+
+.highlight {
+    color: #000000;
+    font-weight: 500; 
+    border-left: 0px solid #000000;
+    display: inline-block;
+}
+
 
 footer {
     background-color: #333;
