@@ -11,6 +11,7 @@ header {
     text-align: center;
     background-color: #ffffff;
     padding: 5px;
+    margin-top: 10px;
 }
 
 nav {
@@ -82,6 +83,12 @@ ul.aboutTech {
     font-weight: 500; 
     border-left: 0px solid #000000;
     display: inline-block;
+}
+
+.special {
+    font-style: italic;
+    color: #9370DB;
+    font-weight: 500; 
 }
 
 .hr {
