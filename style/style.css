@@ -27,9 +27,13 @@ nav a {
     color: black;
 }
 
-h1, h3, p, .recent_posts, .my_list, .poem {
+h1, h3, p, .my_list, .poem {
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.notes p {
+    text-align: justify;
 }
 
 .about {
@@ -100,7 +104,7 @@ footer {
         padding: 10px;
         display: block;
     }
-    h1, h3, p, .recent_posts, .my_list, .poem {
+    h1, h3, p, .my_list, .poem, .notes {
         margin-left: 10%;
         margin-right: 10%;
     }
@@ -123,7 +127,7 @@ footer {
         overflow: hidden;
         text-align: center;
         padding: 10px;
-        margin-bottom: 50px;
+        /* margin-bottom: 50px; */
     }
     
     nav.social-nav a {
