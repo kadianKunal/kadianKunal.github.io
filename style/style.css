@@ -112,8 +112,8 @@ footer {
         display: block;
     }
     h1, h3, p, .my_list, .poem, .notes {
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .hr {
         width: 80%;
