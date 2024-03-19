@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>Clean Code</title>
+</head>
+<body>
+    <header>
+        <img src="../../img/k.png" alt="k" width="4%">
+    </header>
+    <hr>
+    <nav>
+        <a href="../../index"><img src="../../img/home.png" align="top"> Home </a>
+        <a href="../../about"><img src="../../img/person.png" align="top"> About Me </a>
+        <a href="../../knowledgeGarden"><img src="../../img/sprout.png" align="top"> Knowledge Garden </a>
+        <a href="../../poems"><img src="../../img/book.png" align="top"> Poems </a>
+    </nav>
+
+    <div class="notes">
+        <img src="../../img/uncle_bob.jpeg" width="6.5%" style="float: right; margin-right: 25%; margin-top: 2%;"/>
+        <h1>Clean Code</h1>
+        <h3>Robert C Martin aka Uncle Bob</h3>
+
+        <hr class=hr>
+        <h3>Chapter 1: Clean Code</h3>
+        <p class="special">
+            The only valid measurement of code quality : WTFs/minute
+        </p>
+        <p> 
+            We've all felt the relief of seeing our messy program work and deciding that a working mess is better than nothing. 
+            We've all said we'd go back and clean it up later. LeBlanc's law: Later equals never.
+        </p>
+        <p>
+            The Boy Scout Rule : The Boy scouts of America have a simple rule that we can apply to our profession - 
+            Leave the campground cleaner than you found it.
+        </p>
+        <br>
+
+        <hr class=hr>
+        <h3>Chapter 2: Meaningful Names</h3>
+        <p>
+            Choosing good names takes time but saves more than it takes.
+        </p>
+        <p>
+            a. Use intention revealing names - 
+            It should tell why it exists, what it does, and how it is used. 
+            If a name requires a comment, then the name does not reveal its intent
+        </p>
+        <p>
+            b. Make meaningful distinctions -
+            It is not sufficient to add number series or noise words. 
+            Number-series naming(a1, a2,.. , an) is the opposite of intentional naming. They are noninformative.
+            Noise words are redundant. The word varaible should never appear in a vairable name. The word table should never appear in a table name.
+        </p>
+        <p>
+            c. Use searchable names and Avoid mental mapping - 
+            The length of a name should correspond to the size of its scope. 
+            In most other contexts, a single letter name is a poor choice; it's just a placeholder that the reader must mentally map to the actual concept.
+        </p>
+        <p>
+            d. Class names - Classes and objects should have noun or noun phrase names like Customer, WikiPage, Account, Addressparser. 
+            Avoid words like Manager, Processor, Data or Info in the name of a class. A class name should not be a verb.
+        </p>
+        <p>
+            e. Method names - Methods should have verb or verb phrase names like postPayment, deletePage or save. 
+            Accessors, mutators and predicates should be named for their valure and prefixed with get, set and is according to javabean standard.
+        </p>
+        <p>
+            f. Don't be cute - Choose clarity over entertainment value.
+        </p>
+        <p>
+            g. Pick one word per concept - Pick one word for one abstract concept and stick with it. 
+            For instance, it's confusing to have fetch, retrieve and get as equivalent methods of different classes. 
+            Avoid using the same word for two purposes.
+        </p>
+        <p>
+            h. Add meaningful context - You can add context by using prefixes.
+        </p>
+        <p>
+            i. use pronounceable names
+        </p>
+        <br>
+
+        <!-- todo: add further chapters -->
+
+    </div>
+
+    <br><br><br>
+    <footer>
+        <p>&copy; 2024 Kunal Kadian</p>
+    </footer>
+</body>
+</html>
