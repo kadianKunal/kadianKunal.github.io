@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style/style.css">
+    <title>ya_ghat_bheetar</title>
+</head>
+<body>
+    <header>
+        <img src="../../img/k.png" alt="k" width="4%">
+    </header>
+    <hr>
+    <nav>
+        <a href="../../index"><img src="../../img/home.png" align="top"> Home </a>
+        <a href="../../about"><img src="../../img/person.png" align="top"> About Me </a>
+        <a href="../../knowledgeGarden"><img src="../../img/sprout.png" align="top"> Knowledge Garden </a>
+        <a href="../../poems"><img src="../../img/book.png" align="top"> Poems </a>
+    </nav>
+
+    <div class=".poem">
+        <h1>या घट भीतर / In This Body</h1>
+        <h3>कबीर / Kabir</h3>
+        <p>8 Sept, 2024</p>
+        <hr class=hr>
+        <p>
+            <br>
+            या घट भीतर बाग़ बगीचे <br>
+            या ही में सिरजनहारा <br>
+            ढूंढे रे ढूंढे अंधियारा <br>
+            <br>
+            या घट भीतर सात समंदर <br>
+            या ही में नौ लख तारा <br>
+            ढूंढे रे ढूंढे अंधियारा <br>
+            <br>
+            या घट भीतर हीरा और मोती <br>
+            या ही में परखनहारा <br>
+            ढूंढे रे ढूंढे अंधियारा <br>
+            <br>
+            या घट भीतर अनहद गरजे <br>
+            या ही में उठत फुवारा <br>
+            ढूंढे रे ढूंढे अंधियारा <br>
+            <br>
+            कहे कबीरा सुनो भाई साधो <br>
+            या ही में गुरु है हमारा <br>
+            ढूंढे रे ढूंढे अंधियारा <br>
+            <br>
+        </p>
+
+        <hr class=hr>
+    </div>
+    <div class="notes">
+        <p>
+            <br>
+            This poem is translated from Gujarati. Credits - Vipul Rikhi, Shabnam Virmani
+            <br><br>
+            Renowned Gujarati writer Dhruv Bhatt recounts the moment when this poem was born. 
+            Once he was walking on a hot day in a poor rural belt in coastal Saurashtra. 
+            From a distance he saw an old man wearing a tattered dhoti struggling to till a harsh, 
+            rocky earth with a heavy plough, while the sun beat down mercilessly. 
+            Feeling deeply sympathetic to the old man's plight, Dhruv Dada gently asked him as he passed by, 
+            Dada, kem chhe? (How are you?) The old man lifted his face and flashing a beatific smile at Dhruv Dada crooned, 
+            'I'm doing just great!' Utterly taken aback and brought face to face with his own assumptions, 
+            in that moment a song took shape in his heart.
+        </p>
+    </div>
+    <br><br><br><br><br><br>
+    <footer>
+        <p>&copy; 2024 Kunal Kadian</p>
+    </footer>
+</body>
+</html>
